@@ -1,8 +1,8 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
@@ -12,39 +12,71 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	</head>
 	<body>
 		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+		<main class="font-sanchez">
+			<div class="flex flex-col items-center gap-4 md:flex-row md:gap-7">
+				<img
+					src="./Profile.png"
+					alt="Imagen de perfil"
+					class="rounded-full border-white border-solid border-8 w-1/2 md:w-1/4"
+				/>
+				<div class="w-auto flex flex-col">
+					<h1 class="text-4xl sm:text-7xl">Kevin Perdomo</h1>
+					<div
+						class="mt-[-5px] flex flex-col md:gap-2 sm:flex-row sm:gap-0"
+					>
+						<p class="text-xl m-0 sm:text-2xl">Web developer</p>
+						<div class="flex text-cyan items-center">
+							<span
+								class="icon-[material-symbols-light--location-on-rounded]"
+							></span>
+							<p>El Salvador</p>
+						</div>
+					</div>
+					<p>
+						Enthusiastic web developer driven by a passion for
+						technology and software, dedicated to creating
+						innovative solutions for diverse challenges.
+					</p>
+					<div
+						class="flex flex-col"
+					>
+						<div class="flex text-3xl items-start gap-2 mt-3">
+							<a href="https://www.linkedin.com/in/perdomokevin/"
+								><span
+									class="icon-[akar-icons--linkedin-box-fill]"
+								></span></a
+							>
+							<a href="https://github.com/vinxcode"
+								><span class="icon-[jam--github]"></span></a
+							>
+							<a href="https://wa.me/50360528774"
+								><span class="icon-[fa-brands--whatsapp-square]"
+								></span></a
+							>
+							<a
+								href="https://drive.google.com/file/d/1EUzWpZmcvkKlJKtrXGwnBjXzwIcRxc6E/view?usp=sharing"
+								class="bg-cyan text-grey-dark font-leagueSpartan font-black py-1 px-3 text-sm rounded-lg hover:text-grey-dark-hover"
+								>GO TO RESUME</a
+							>
+						</div>
+						<p class="text-cyan italic">
+							Mail: kevin030pgj@gmail.com
+						</p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<Footer />
+		<style>
+			body {
+				background: rgb(39, 56, 76);
+				background: linear-gradient(
+					90deg,
+					rgba(39, 56, 76, 1) 0%,
+					rgba(85, 78, 98, 1) 50%,
+					rgba(75, 115, 141, 1) 100%
+				);
+			}
+		</style>
 	</body>
 </html>
