@@ -5,10 +5,21 @@ pubDate: 'May 10 2024'
 heroImage: '/Portfolio.png'
 ---
 
-Bienvenidos a mi blog. Esta es la primera entrada que hago en mi portafolio, que a su vez es un blog.  
+Esta es la primera vez que hago un portafolio. El objetivo es simple: tener una manera de mostrar mis proyectos al mundo, pero en especial a clientes o recrutadores. Tengo el objetivo de poder vivir de la programación y del desarrollo web en específico y si bien, hay muchos caminos para poder llegar al objetivo, creo que tener un portafolio es un paso que en muchos de esos caminos siempre estará presente.
 
-Lo que quiero contarles este dia es como estoy comenzando a hacer mi portafolio de proyectos para poder mostrar mis habilidades y mi talento como desarrollador web. Es muy importante para cualquier desarrollador a nivel profesional, ya sea trabajando como FREELANCE o para mostrarlo a los reclutadores cuando se está en la búsqueda de un trabajo en una empresa o startup.  
+En principio este blog tiene el objetivo de contar mi experiencia creadno este portafolio, pero creo que se terminará extendiendo para contar en el mi camino completo hacia vivir del desarrollo web. 
 
-Heeeey, sigo escribiendo por aqui
+Los primero proyectos que voy a crear seguramente van a ir muy encaminados a demostrar mis habilidades en las tecnologías de mi stack, lo que lo haría ideal para que lo vea un reclutador. En otras palabras, en una primera etapa el portafolio va a estar orientado a conseguir un trabajo como desarrollador web, sin embargo, nada es seguro en esta vida y menos aún conseguir trabajo.
 
-### Este es un subtitulo
+Cuando haya llegado a ese punto voy a enfocarme en crear proyectos que, además de cumplir con el objetivo de ser aptos para mi portafolio, también tengan potencial como proyectos rentable. Puede ser un SaS, aplicaciones móviles sencillas o simplemente herramientas para mi uso personal que puede gustar a más personas, o más importante aún, resolver el mismo problema a otras personas.
+
+
+#### ¿Cuál es el plan?
+
+Este portafolio ya tiene un link desde mi curriculum, por lo tanto tengo el tiempo bastante contado. Mi plan es "completarlo" en un mes. La idea es hacer un proyecto por semana dedicandole unas 4 a 6 horas al día y en un mes tener unos cuatro proyectos que hagan que mi portafolio sea funcional. Después de eso seguiré haciendo más proyectos, pero necesito unos cuantos lo más pronto posible.
+
+Mañana mismo me pondré manos a la obra para poder completar este reto que me hago a mí mismo.
+
+Gracias por leerme, traigo novedades pronto.
+
+Saludos.

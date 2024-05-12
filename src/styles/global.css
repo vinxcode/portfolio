@@ -134,11 +134,14 @@ hr {
 	border-top: 1px solid rgb(var(--gray-light));
 }
 @media (max-width: 720px) {
-	body {
+	body{
 		font-size: 16px;
 	}
 	main {
 		padding: 0.7em;
+	}
+	.prose p{
+		font-size: 15px;
 	}
 }
 
