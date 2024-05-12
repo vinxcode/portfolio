@@ -91,10 +91,11 @@ a:hover {
 }
 /* p {
 	margin-bottom: 1em;
-} */
-/* .prose p {
-	margin-bottom: 2em;
-} */
+}  */
+.prose p {
+	margin-bottom: 0.8em;
+	font-size: 18px;
+}
 textarea {
 	width: 100%;
 	font-size: 16px;
@@ -134,10 +135,10 @@ hr {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	main {
-		padding: 1em;
+		padding: 0.7em;
 	}
 }
 
