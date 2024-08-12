@@ -2,23 +2,30 @@
 import Technology from './Technology.astro'
 ---
 
-<section class="mt-10 bg-grey-dark p-5 md:p-10 rounded-xl shadow-2xl">
+<section class="mt-10 p-1 md:p-10 rounded-xl">
     <h3 class="text-white">Stack</h3>
-    <div class="gap-5">
+    <div class="flex gap-2">
         <Technology name="JAVASCRIPT"/>
         <Technology name="HTML"/>
         <Technology name="CSS"/>
         <Technology name="TAILWIND"/>
         <Technology name="FIGMA"/>
         <Technology name="ASTRO"/>
+        
+    </div>
+    <div class="flex gap-2">
         <Technology name="REACT"/>
         <Technology name="NEXTJS"/>
         <Technology name="NODEJS"/>
         <Technology name="EXPRESS"/>
         <Technology name="MYSQL"/>
+        
+    </div>
+    <div class="flex gap-2">
         <Technology name="SQLITE"/>
         <Technology name="SUPABASE"/>
         <Technology name="ASTRODB"/>
     </div>
-    <p class="text-base mt-4">Currently learning <span class="italic">React Native and Tests with Vitest</span></p>
+    <p class="text-base mt-4">Currently learning <Technology class="italic" name="REACT NATIVE"/> and 
+        <Technology class="italic" name="VITEST"/></p>
 </section>
