@@ -2,7 +2,7 @@
 import Technology from './Technology.astro'
 ---
 
-<section class="mt-10 p-1 md:p-10 rounded-xl">
+<section class="flex flex-col justify-center items-center mt-10 p-1 md:p-10 rounded-xl">
     <h3 class="text-white">Stack</h3>
     <div class="flex gap-2">
         <Technology name="JAVASCRIPT"/>
@@ -10,8 +10,6 @@ import Technology from './Technology.astro'
         <Technology name="CSS"/>
         <Technology name="TAILWIND"/>
         <Technology name="FIGMA"/>
-        <Technology name="ASTRO"/>
-        
     </div>
     <div class="flex gap-2">
         <Technology name="REACT"/>
@@ -25,7 +23,8 @@ import Technology from './Technology.astro'
         <Technology name="SQLITE"/>
         <Technology name="SUPABASE"/>
         <Technology name="ASTRODB"/>
+        <Technology name="ASTRO"/>
     </div>
-    <p class="text-base mt-4">Currently learning <Technology class="italic" name="REACT NATIVE"/> and 
+    <p class="text-lg mt-4">Currently learning <Technology class="italic" name="REACT NATIVE"/> and 
         <Technology class="italic" name="VITEST"/></p>
 </section>
