@@ -13,10 +13,6 @@ PUPUSAPP busca ser una solución para los pedidos en las pupuserías que son má
 
 Esta sencilla aplicación busca encargarse del trabajo de recibir las órdenes, poniendo una interfaz sencilla y clara para el cliente final de una pupusería, mediante la cual podrá ordenar de manera fácil. A su vez el personal de la pupusería tendrá una interfaz deiferente en la cual verá la lista de pedidos que tienen. Cuando una orden se haya terminado de cocinar o empacar la podrán quitar de la lista presionando un simple botón.
 
-![Screenshot de pupusapp](./public/Frame2.jpg)
-
-![Screenshot de pupusapp](./public/Frame3.jpg)
-
 La capturas son parte de los diseños que hice en Figma para poder tener una idea más clara de lo que quiero hacer, aunque faltan pantallas, ya que solo se muestran las vistas del cliente final.
 
 Cabe recalcar que me tomé un poco de tiempo para poder crear una identidad de marca sencilla de la app, es decir, un logo, una paleta de colores, tipografías, que harán que la aplicación pueda tener mucho más coherencia en el diseño.
