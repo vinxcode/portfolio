@@ -7,6 +7,8 @@ const projects = [
         description: "Aplicación para la gestión de un huerto casero. Útil para llevar un inventario y control de las siembras, monitorear su proceso y rendimiento.",
         githubLink: "https://github.com/vinxcode/huerto",
         imageLink: "../public/logo-huerto.jpg",
+        linkToApp: "https://huerto-two.vercel.app/",
+        stackIcons: ["icon-[ri--nextjs-fill]", "icon-[simple-icons--supabase] text-lg"]
     }
 ]
 ---
@@ -15,7 +17,7 @@ const projects = [
     <h2 class="font-leagueSpartan font-bold text-5xl text-white mb-5">Projects</h2>
     {
         projects.map(project => (
-            <Project />
+            <Project project={project}/>
         ))
     }
 </section>
