@@ -1,31 +1,41 @@
 ---
-import Project from './Project.astro'
+import Project from "./Project.astro";
 
 const projects = [
     {
         project: "Huerto en casa",
-        description: "Aplicación para la gestión de un huerto casero. Útil para llevar un inventario y control de las siembras, monitorear su proceso y rendimiento.",
+        description:
+            "Aplicación para la gestión de un huerto casero. Útil para llevar un inventario y control de las siembras, monitorear su proceso y rendimiento.",
         githubLink: "https://github.com/vinxcode/huerto",
         imageLink: "../public/logo-huerto.png",
         linkToApp: "https://huerto-two.vercel.app/",
-        stackIcons: ["icon-[ri--nextjs-fill]", "icon-[simple-icons--supabase] text-lg", "icon-[file-icons--tailwind]", ]
+        stackIcons: [
+            "icon-[ri--nextjs-fill]",
+            "icon-[simple-icons--supabase] text-lg",
+            "icon-[file-icons--tailwind]",
+        ],
     },
     {
         project: "Juego Biblico",
-        description: "Aplicación para aprender de la biblia mediante un sencillo juego de preguntas. Creado para utilizarse en mi iglesia y talvez en el futuro en muchas iglesias.",
+        description:
+            "Aplicación para aprender de la biblia mediante un sencillo juego de preguntas. Creado para utilizarse en mi iglesia y talvez en el futuro en muchas iglesias.",
         githubLink: "https://github.com/vinxcode/preguntas-biblicas",
         imageLink: "../public/logo-juego.png",
         linkToApp: "https://preguntas-biblicas-rho.vercel.app/",
-        stackIcons: ["icon-[ri--nextjs-fill]", "icon-[simple-icons--supabase] text-lg", "icon-[file-icons--tailwind]"]
-    }
-]
+        stackIcons: [
+            "icon-[ri--nextjs-fill]",
+            "icon-[simple-icons--supabase] text-lg",
+            "icon-[file-icons--tailwind]",
+        ],
+    },
+];
 ---
 
 <section class="my-10 flex flex-col gap-5">
-    <h2 class="font-leagueSpartan font-bold text-5xl text-white mb-5">Projects</h2>
-    {
-        projects.map(project => (
-            <Project project={project}/>
-        ))
-    }
+    <h2 class="font-leagueSpartan font-bold text-5xl text-white mb-5">
+        Projects
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-3">
+        {projects.map((project) => <Project project={project} />)}
+    </div>
 </section>
