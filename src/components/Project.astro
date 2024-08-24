@@ -2,55 +2,9 @@
 const { project } = Astro.props;
 ---
 
-<!-- <article
-    class="flex flex-col border-8 border-white rounded-3xl p-3 items-center md:items-end md:px-9 md:py-7"
->
-    <div
-        class="flex flex-col w-full justify-center gap-3 items-center mt-5 md:mt-0 md:flex-row"
-    >
-        <img
-            src={project.imageLink}
-            alt="Imagen de Huerto"
-            class="rounded-3xl border-white border-8 w-56 md:w-1/4 mx-auto"
-        />
-
-        <div class="flex flex-col gap-3 p-2">
-            <h3 class="text-4xl font-bold text-white mb-[-5px]">
-                {project.project}
-            </h3>
-            <p class="font-leagueSpartan text-lg leading-5">
-                {project.description}
-            </p>
-        </div>
-    </div>
-
-    <div class="w-full flex flex-col md:flex-row gap-2 md:gap-10 px-2 pb-2">
-        <div
-            class="py-2 px-5 rounded-full text-white text-2xl flex items-center gap-2 justify-center w-full md:w-1/4"
-        >
-            {
-                project.stackIcons.map((item) => (
-                    <span class={item} />
-                ))
-            }
-        </div>
-        <div class="flex w-full gap-3 items-center">
-            <a
-                href={project.linkToApp}
-                class="rounded-3xl w-full py-2 font-leagueSpartan text-center font-semibold text-grey-dark hover:text-grey-dark bg-white hover:bg-cyan"
-                >Ir a la app</a
-            >
-            <a href={project.githubLink}>
-                <span
-                    class="icon-[bi--github] text-white hover:bg-cyan text-4xl mt-2 w-1/8"
-                ></span>
-            </a>
-        </div>
-    </div>
-</article> -->
-<article class="flex flex-col bg-white rounded-2xl text-grey-dark">
-    <img src={project.imageLink} alt="Imagen del proyecto" />
-    <div class="p-3 flex flex-col gap-3">
+<article class="flex bg-white rounded-2xl text-grey-dark">
+    <img src={project.imageLink} alt="Imagen del proyecto" class="w-[30%] h-auto rounded-l-xl"/>
+    <div class="p-7 flex flex-col gap-3">
         <div class="flex justify-between">
             <h3 class="text-xl text-grey-dark font-bold">{project.project}</h3>
             <div
@@ -81,8 +35,3 @@ const { project } = Astro.props;
     </div>
 </article>
 
-<style>
-    article {
-        box-shadow: 0 5px 20px 3px #00b6d6;
-    }
-</style>
